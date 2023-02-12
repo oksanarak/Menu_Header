@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(207, 204, 204);
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 7px rgba(129, 129, 129, 0.25);
+}
+
+/* Navigation */
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background: #ffffff;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/* Navigation on the left */
+
+.menu__ul {
+  width: 100%;
+  color: #000000;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  font-size: 16px;
+  padding: 40px;
+}
+
+.menu__li {
+  color: #000000;
+}
+
+.menu__link {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #000000;
+  font-weight: 300;
+}
+
+/* Navigation on the center */
+
+.logo__ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+  color: #05a88d;
+}
+
+/* Navigation on the right */
+
+.btn__ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu__signup {
+  text-decoration: none;
+  color: #05a88d;
+  font-size: 16px;
+
+  box-sizing: border-box;
+  border: 2px solid #05a88d;
+  border-radius: 3px;
+  padding: 10px 20px;
+  background: none;
+}
+
+.menu__login {
+  text-decoration: none;
+  color: #05a88d;
+  font-size: 16px;
+  padding: 0 40px;
+}
+
+.menu__link:hover {
+  color: #05a88d;
+}
